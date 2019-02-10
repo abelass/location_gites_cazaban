@@ -1,7 +1,7 @@
 <paquet
 	prefix="location_gites_cazaban"
 	categorie="squelette"
-	version="1.0.0"
+	version="1.0.1"
 	etat="test"
 	compatibilite="[3.2.3;3.2.*]"
 	logo="prive/themes/spip/images/location_gites_cazaban-64.png"
@@ -16,7 +16,10 @@
 	<licence>GNU/GPL v3</licence>
 
 	<necessite nom="location_immeubles" compatibilite="[1.0.6;]" />
-	<necessite nom="location_objets_bank" compatibilite="[1.0.10;]" />
+	<necessite nom="location_objets_bank" compatibilite="[1.1.1;]" />
 	<necessite nom="objets_restrictions_periodes" compatibilite="[1.0.0;]" />
+
+
+	<pipeline nom="paiement_location_donnees" inclure="location_gites_cazaban_pipelines.php" />
 
 </paquet>
