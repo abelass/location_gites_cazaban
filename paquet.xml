@@ -1,14 +1,14 @@
 <paquet
 	prefix="location_gites_cazaban"
 	categorie="squelette"
-	version="1.0.1"
+	version="1.0.2"
 	etat="test"
 	compatibilite="[3.2.3;3.2.*]"
 	logo="prive/themes/spip/images/location_gites_cazaban-64.png"
 	documentation="https://cloud.websimple.be/index.php/s/NCyNXf5yqJqsc3m"
 >
 
-	<nom>Location des gites du domaine Cazaban</nom>
+	<nom>Location des gîtes du domaine Cazaban</nom>
 	<!-- Système de location pour le domaine Cazaban -->
 
 	<auteur lien='https://websimple.be'>Rainer Müller</auteur>
