@@ -1,0 +1,22 @@
+<paquet
+	prefix="location_gites_cazaban"
+	categorie="squelette"
+	version="1.0.0"
+	etat="test"
+	compatibilite="[3.2.3;3.2.*]"
+	logo="prive/themes/spip/images/location_gites_cazaban-64.png"
+	documentation="https://cloud.websimple.be/index.php/s/NCyNXf5yqJqsc3m"
+>
+
+	<nom>Location des gites du domaine Cazaban</nom>
+	<!-- Système de location pour le domaine Cazaban -->
+
+	<auteur lien='https://websimple.be'>Rainer Müller</auteur>
+
+	<licence>GNU/GPL v3</licence>
+
+	<necessite nom="location_immeubles" compatibilite="[1.0.6;]" />
+	<necessite nom="location_objets_bank" compatibilite="[1.0.10;]" />
+	<necessite nom="objets_restrictions_periodes" compatibilite="[1.0.0;]" />
+
+</paquet>
