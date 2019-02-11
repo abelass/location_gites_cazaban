@@ -15,7 +15,7 @@ if (!defined('_ECRIRE_INC_VERSION')) {
 
 function location_gites_cazaban_paiement_location_donnees($flux) {
 	if ($flux['args']['montant_paye'] == 0.00) {
-			$flux['data']['options']['acompte'] = 30;
+		$flux['data']['options']['acompte'] = 30;
 	}
 	return $flux;
 }
